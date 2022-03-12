@@ -12,7 +12,7 @@ public class Calculator extends HttpServlet
 	}
 	
 	public long subFucn(long first, long second){
-        sysyem.out.println("this line has been added by shankar");
+        System.out.println("this line has been added by shankar");
 		
 		return second-first;
 	}
