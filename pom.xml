@@ -23,8 +23,8 @@
 </dependencies>
 <distributionManagement>
   <repository>
-    <id>releases</id>
-     <url>http://192.168.220.128:8081/nexus/content/repositories/JavawebCalculator</url> 
+    <id>JavawebCalculator</id>
+    <url>http://192.168.220.128:8081/nexus/content/repositories/JavawebCalculator</url>
   </repository>
 </distributionManagement>
 </project>
