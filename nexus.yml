@@ -1,0 +1,16 @@
+---
+ - hosts: localhost
+   become_user: root
+   become: yes
+   tasks:
+     - name: get statistics jar
+       maven_artifact:
+           group_id: com.web.cal
+           artifact_id: webapp
+           version: 0.2
+           extension: war
+           repository_url: http://192.168.220.129:8081/nexus/content/repositories/JavawebCalculator
+           username: admin
+           password: admin123
+           dest: /opt/
+
