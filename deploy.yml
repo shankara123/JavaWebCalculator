@@ -1,0 +1,12 @@
+--- 
+- hosts: 192.168.220.129
+  become_user: root
+  become: yes
+  tasks: 
+   - name: deploy the artifact
+     copy: src=/opt/webapp-0.2.war  dest=/root/apache-tomcat-7.0.94/webapps
+
+   - name: stop the tomcat server
+     command: ./root/apache-tomcat-7.0.94/bin/shutdown.sh 
+   - name: restart the tomcat server
+     command: ./root/apache-tomcat-7.0.94/bin/start.sh 
