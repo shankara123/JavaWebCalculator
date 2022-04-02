@@ -2,6 +2,7 @@
  - hosts: localhost
    become_user: root
    become: yes
+   gather_facts: no
    tasks:
      - name: get statistics jar
        maven_artifact:
