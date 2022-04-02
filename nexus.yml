@@ -13,5 +13,5 @@
            repository_url: http://192.168.220.129:8081/nexus/content/repositories/JavawebCalculator
            username: admin
            password: admin123
-           dest: /opt/
+           dest: /var/lib/jenkins/workspace/
 
