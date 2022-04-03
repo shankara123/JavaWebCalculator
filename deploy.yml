@@ -8,6 +8,6 @@
      copy: src=/var/lib/jenkins/workspace/webapp-0.2.war  dest=/root/apache-tomcat-7.0.94/webapps
 
    - name: stop the tomcat server
-     command: ./root/apache-tomcat-7.0.94/bin/shutdown.sh 
+     command: sh /root/apache-tomcat-7.0.94/bin/shutdown.sh
    - name: restart the tomcat server
-     command: ./root/apache-tomcat-7.0.94/bin/start.sh 
+     command: sh /root/apache-tomcat-7.0.94/bin/startup.sh
