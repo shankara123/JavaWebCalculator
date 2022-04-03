@@ -10,7 +10,7 @@
            artifact_id: webapp
            version: 0.2
            extension: war
-           repository_url: http://54.174.101.138:8081/nexus/content/repositories/JavawebCalculator
+           repository_url: http://192.168.220.129:8081/nexus/content/repositories/JavawebCalculator
            username: admin
            password: admin123
            dest: /var/lib/jenkins/workspace/
