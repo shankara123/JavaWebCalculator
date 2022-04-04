@@ -5,7 +5,7 @@
   gather_facts: no
   tasks: 
    - name: deploy the artifact
-     copy: src=/var/lib/jenkins/workspace/webapp-0.2.war  dest=/root/apache-tomcat-7.0.94/webapps
+     copy: src=/var/lib/jenkins/workspace/webapp-0.3.war  dest=/root/apache-tomcat-7.0.94/webapps
 
    - name: stop the tomcat server
      command: sh /root/apache-tomcat-7.0.94/bin/shutdown.sh
