@@ -8,7 +8,7 @@
        maven_artifact:
            group_id: com.web.cal
            artifact_id: webapp
-           version: 0.2
+           version: 0.3
            extension: war
            repository_url: http://192.168.220.129:8081/nexus/content/repositories/JavawebCalculator
            username: admin
