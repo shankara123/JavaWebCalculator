@@ -4,7 +4,8 @@ pipeline{
         stage('checkout for scm'){
             steps{
             git branch:'html_code',
-                credentialsId:'709fc51a-19d4-4a49-8838-3049283fabaf',
+               // credentialsId:'709fc51a-19d4-4a49-8838-3049283fabaf',
+                credentialsId: 'gitcredtials',
                 url:'https://github.com/shankara123/JavaWebCalculator.git'
             }
         }
