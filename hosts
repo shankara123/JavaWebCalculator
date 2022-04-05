@@ -1,3 +1,4 @@
 [nexus]
 ansible_connection=localhost
 192.168.220.129 ansible_ssh_user=root   ansible_ssh_pass=redhat
+192.168.137.128 ansible_ssh_user=root   ansible_ssh_pass=redhat
