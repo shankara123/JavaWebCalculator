@@ -24,7 +24,7 @@
 <distributionManagement>
   <repository>
     <id>JavawebCalculator</id>
-    <url>http://192.168.220.129:8081/nexus/content/repositories/JavawebCalculator</url>
+    <url>http://192.168.137.128:8081/nexus/content/repositories/JavawebCalculator</url>
   </repository>
 </distributionManagement>
 </project>
