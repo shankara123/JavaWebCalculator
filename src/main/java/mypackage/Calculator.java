@@ -14,12 +14,16 @@ public class Calculator extends HttpServlet
 	public long subFucn(long first, long second){
         System.out.println("this line has been added by shankar");
 		
-		return second-first;
+		return first-secound;
 	}
 	
 	public long mulFucn(long first, long second){
 		
 		return first*second;
+	}
+	public long divFucn(long first, long second){
+		
+		return first/second;
 	}
 	
 	
